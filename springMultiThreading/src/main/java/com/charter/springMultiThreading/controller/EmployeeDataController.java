@@ -28,13 +28,13 @@ public class EmployeeDataController
 		List<EmployeeAddress> addressList = new ArrayList<EmployeeAddress>();
 		
 		{
-			employeeAddress1.setHouseNo("1111");
-			employeeAddress1.setStreetNo("111");
-			employeeAddress1.setZipCode("111111");
+			employeeAddress1.setHouseNo("111");
+			employeeAddress1.setStreetNo("1111");
+			employeeAddress1.setZipCode("11111");
 			
 			employeeAddress2.setHouseNo("222");
-			employeeAddress2.setStreetNo("222");
-			employeeAddress2.setZipCode("222222");
+			employeeAddress2.setStreetNo("2222");
+			employeeAddress2.setZipCode("22222");
 			
 			addressList.add(employeeAddress1);
 			addressList.add(employeeAddress2);
@@ -54,8 +54,8 @@ public class EmployeeDataController
 		{
 			ArrayList<String> phoneNumberList = new ArrayList<String>();
 			
-			phoneNumberList.add("100000");
-			phoneNumberList.add("200000");
+			phoneNumberList.add("2223334444");
+			phoneNumberList.add("5556667777");
 			
 			employeePhone.setPhoneNumbers(phoneNumberList);
 		}
@@ -75,12 +75,12 @@ public class EmployeeDataController
 		
 		List<EmployeeName> employeeList = new ArrayList<EmployeeName>();
 		{
-			employeeName1.setFirstName("Santa");
-			employeeName1.setLastName("Singh");
+			employeeName1.setFirstName("Bereket");
+			employeeName1.setLastName("Yetera");
 		}
 		{
-			employeeName2.setFirstName("Banta");
-			employeeName2.setLastName("Singh");
+			employeeName2.setFirstName("Ahmed");
+			employeeName2.setLastName("Kassa");
 		}
 
 		employeeList.add(employeeName1);
